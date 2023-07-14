@@ -1,4 +1,4 @@
-<h1 align="center">[UsrBG](https://github.com/ItMeSarah/BD-Addons/tree/main/usrbg)</h1>
+<a><h1 align="center">[UsrBG](https://github.com/ItMeSarah/BD-Addons/tree/main/usrbg)</h1></a>
 <p align="center">A database of custom user requested backgrounds.</p>
 
 <p align="center"><img height="400" align="center" src="https://i.imgur.com/4spARFh.png"></p>
@@ -20,7 +20,7 @@ If you are using BetterDiscord, you **MUST have [Data Attributes](https://raw.gi
 
 This will import the USRBG database. Alone, it's simply some variables. Some of examples on how it can be utilized can be seen in the [usrbg](UsrBGSnippet.css) folder of this repo.
 
-<h1 align="center">[VCBG](https://github.com/ItMeSarah/BD-Addons/tree/main/vcbg)</h1>
+<a><h1 align="center">[VCBG](https://github.com/ItMeSarah/BD-Addons/tree/main/vcbg)</h1></a>
 <p align="center">A database of custom user requested backgrounds for voice channels.</p>
 
 <p align="center"><img height="400" align="center" src="https://i.imgur.com/ekAbtmm.png"></p>
@@ -39,7 +39,7 @@ This will import the USRBG database. Alone, it's simply some variables. Some of 
 This will import the VCBG database. Alone, it's simply some variables. Some of examples on how it can be utilized can be seen in the [vcbg](vcbg.css) folder of this repo.
 
 
-<h1 align="center">[User Affinities](https://github.com/ItMeSarah/BD-Addons/tree/main/plugins/UserAffinities)</h1>
+<a><h1 align="center">[User Affinities](https://github.com/ItMeSarah/BD-Addons/tree/main/plugins/UserAffinities)</h1></a>
 <p align="center">A plugin that allows you to see who you interact with the most either by DM or direct @ messages in servers.</p>
 This plugin allows you to view who you talk to the most, through DMs or through directly interacting with them in servers by @ing them.
  Screenshots below of what to expect it to look like.
