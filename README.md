@@ -1,16 +1,16 @@
-<a><h1 align="center">[User Affinities](https://github.com/ItMeSarah/BD-Addons/tree/main/plugins/UserAffinities/UserAffinities.plugin.js)</h1></a>
+<h1 align="center"><a href="https://github.com/ItMeSarah/BD-Addons/tree/main/plugins/UserAffinities/UserAffinities.plugin.js">UserAffinities</a></h1>
 <p align="center">A plugin that allows you to see who you interact with the most either by DM or direct @ messages in servers.</p>
 This plugin allows you to view who you talk to the most, through DMs or through directly interacting with them in servers by @ing them.
- Screenshots below of what to expect it to look like.
+Screenshots below of what to expect it to look like.
 <h1 align="center">In the UserPopout</h1>
 <p align="center"><img height="500" align="center" src="https://itmesarah.github.io/BD-Addons/plugins/UserAffinities/Screenshots/UserPopoutAffinity.jpg"></p>
 <h1 align="center">In the User Profile</h1>
 <p align="center"><img height="400" align="center" src="https://itmesarah.github.io/BD-Addons/plugins/UserAffinities/Screenshots/UserProfileAffinity.jpg"></p>
 <h1 align="center">The prompt you will likely see if you do not have the setting enabled that the plugin relies on.</h1>
-<p align="center"><img height="220" align="center" src="https://itmesarah.github.io/BD-Addons/plugins/UserAffinities/Screenshots/IncorrectSettings.jpg></p>
+<p align="center"><img height="200" align="center" src="https://itmesarah.github.io/BD-Addons/plugins/UserAffinities/Screenshots/IncorrectSettings.jpg"></p>
 
 
-<a><h1 align="center">[UsrBG](https://github.com/ItMeSarah/BD-Addons/tree/main/usrbg/usrbg.css)</h1></a>
+<h1 align="center"><a href="https://github.com/ItMeSarah/BD-Addons/tree/main/usrbg/usrbg.css">USRBG</a></h1>
 <p align="center">A database of custom user requested backgrounds.</p>
 
 <p align="center"><img height="400" align="center" src="https://i.imgur.com/4spARFh.png"></p>
@@ -32,7 +32,7 @@ If you are using BetterDiscord, you **MUST have [Data Attributes](https://raw.gi
 
 This will import the USRBG database. Alone, it's simply some variables. Some of examples on how it can be utilized can be seen in the [usrbg](UsrBGSnippet.css) folder of this repo.
 
-<a><h1 align="center">[VCBG](https://github.com/ItMeSarah/BD-Addons/tree/main/vcbg/vcbg.css)</h1></a>
+<h1 align="center"><a href="https://github.com/ItMeSarah/BD-Addons/tree/main/vcbg/vcbg.css">USRBG</a></h1>
 <p align="center">A database of custom user requested backgrounds for voice channels.</p>
 
 <p align="center"><img height="400" align="center" src="https://i.imgur.com/ekAbtmm.png"></p>
