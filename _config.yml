@@ -1,0 +1,4 @@
+remote_theme: "dracula/gh-pages"
+plugins:
+- jekyll-remote-theme
+include: [".well-known"]
