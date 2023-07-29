@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://github.com/ItMeSarah/BD-Addons/tree/main/plugins/UserAffinities/UserAffinities.plugin.js">UserAffinities</a></h1>
+<h1 align="center"><a href="https://github.com/ItMeSarah/BD-Addons/releases/download/UserAffinities/UserAffinities.plugin.js">UserAffinities</a></h1>
 <p align="center">A plugin that allows you to see who you interact with the most either by DM or direct @ messages in servers.</p>
 This plugin allows you to view who you talk to the most, through DMs or through directly interacting with them in servers by @ing them.
 Screenshots below of what to expect it to look like.
