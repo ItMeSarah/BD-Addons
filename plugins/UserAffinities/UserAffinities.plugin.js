@@ -84,7 +84,6 @@ module.exports = class UserAffinities {
         if (popout && popout.matches(`[class*="userPopout-"],[class*="userPopoutOuter-"]`)) {
             const userId = findInTree(BdApi.ReactUtils.getInternalInstance(popout), m => m?.user?.id || m?.userId || m?.message?.author?.id, {walkable: ["memoizedProps", "return"]});
             const id = userId?.userId ?? userId?.user?.id ?? userId?.message?.author?.id;
-            console.log(id);
 
             // Check the set to see if this user has an affinity
             const affinityUsers = AffinityStore.getUserAffinitiesUserIds();
