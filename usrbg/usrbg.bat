@@ -17,7 +17,7 @@ async function downloadJson() {
 function compile(data) {
 
 	data.sort((a, b) => (a.uid > b.uid) ? 1 : -1)
-	return data.map(a => `.id-${a.uid}:not(#messages, #username){--u:url(${a.img.replace("https://", "//").replace("http://", "//")});width: auto; height: auto;}\r\n`).join("");
+	return data.map(a => `.id-${a.uid}:not(#messages, #userName){--u:url(${a.img.replace("https://", "//").replace("http://", "//")});width: auto; height: auto;}\r\n`).join("");
 }
 
 async function main() {
