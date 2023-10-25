@@ -14,6 +14,7 @@
     --profile-role-pill-border-color: var(--interactive-normal) !important;
 }
 /*Usrbg*/
+.id-495862154323558401:not(#messages, #username){--u:url(https://ik.imagekit.io/vcbg/kafka.avif);width: auto; height: auto;}
 .overlayBackground-1KgwVi, .userProfileOuterUnthemed-2b2rsv, .userProfileInner-3F03PX::before, .userProfileInnerThemedNonPremium-1gT-zY, .userProfileInnerThemedWithBanner-2624Yx, .userProfileInnerThemedPremiumWithoutBanner-1yMS1H{background: none} /*Upcoming changes for Profile Skins*/
 #userpopout{transform:translateZ(0);}
 #usermodal{transform:translateZ(0);}
@@ -24,10 +25,8 @@ background: var(--background-floating) !important;
 .accountProfilePopoutWrapper-3GskID #userpopout::before{content:unset;}
 .accountProfilePopoutWrapper-3GskID #userpopout {transform: unset;}
 /*User Popout (Full Popout and not just the banner.*/
-#userpopout::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.5;background:var(--u) center/100% 100% no-repeat !important}
+#userpopout::before, #usermodal::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.5;background:var(--u) center/100% 100% no-repeat !important}
 
-/*User Profile (Full Profile and not just the banner.*/
-#usermodal::before{content:'' !important;position:fixed;top:1px;left:0;width:100%;height:100%;opacity:.5;pointer-events:none;background:var(--u) center/100% 100% no-repeat!important}
 
 /*Lets the user BG Show on user popout and profile. */
 #app-mount .body-2wLx-E, 
