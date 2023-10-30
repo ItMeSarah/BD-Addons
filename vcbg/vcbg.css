@@ -1,23 +1,23 @@
-.background-L8lGH6 .avatarWrapper-24Rbpj{display: none; /*Hides the user's profile picture in the center, set this to unset if you want them visible.*/}
-.background-L8lGH6{background: var(--vcbg) center/100% 100% no-repeat;}
-.background-L8lGH6{--vcbg: var(--placeholder);}
-.background-L8lGH6[style^="background-color"]{background-color: transparent !important}
+.background__3b30f .avatarWrapper__76c62{display: none; /*Hides the user's profile picture in the center, set this to unset if you want them visible.*/}
+.background__3b30f{background: var(--vcbg) center/100% 100% no-repeat;}
+.background__3b30f{--vcbg: var(--placeholder);}
+.background__3b30f[style^="background-color"]{background-color: transparent !important}
 
-[data-selenium-video-tile="495862154323558401"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/kafka.avif");}
-[data-selenium-video-tile="249746236008169473"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/zere.avif");}
-[data-selenium-video-tile="582170007505731594"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/dablu.avif");}
-[data-selenium-video-tile="786375619888939038"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/786375619888939038.avif");}
-[data-selenium-video-tile="421318765410779158"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/421318765410779158.avif");}
-[data-selenium-video-tile="143444820369735681"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/143444820369735681.avif");}
-[data-selenium-video-tile="518521589181054988"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/518521589181054988.avif");}
-[data-selenium-video-tile="174868361040232448"] .background-L8lGH6{--vcbg: url("//source.unsplash.com/featured/?{Frog}")}
-[data-selenium-video-tile="427179231164760066"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/agp.avif")}
-[data-selenium-video-tile="354191516979429376"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/domi.avif")}
-[data-selenium-video-tile="538487970408300544"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/axolotl.avif")}
-[data-selenium-video-tile="133659541198864384"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/133659541198864384.avif")} 
-[data-selenium-video-tile="176480481066352640"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/176480481066352640.avif")} 
-[data-selenium-video-tile="880058157139918898"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/880058157139918898.avif")}
-[data-selenium-video-tile="801089753038061669"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/riddim.avif")}
-[data-selenium-video-tile="895958242105122826"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/895958242105122826.avif")}
-[data-selenium-video-tile="870734002074562602"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/870734002074562602.avif")}
-[data-selenium-video-tile="819191621676695563"] .background-L8lGH6{--vcbg: url("//ik.imagekit.io/vcbg/KamiRu.avif")}
+[data-selenium-video-tile="495862154323558401"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/kafka.avif");}
+[data-selenium-video-tile="249746236008169473"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/zere.avif");}
+[data-selenium-video-tile="582170007505731594"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/dablu.avif");}
+[data-selenium-video-tile="786375619888939038"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/786375619888939038.avif");}
+[data-selenium-video-tile="421318765410779158"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/421318765410779158.avif");}
+[data-selenium-video-tile="143444820369735681"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/143444820369735681.avif");}
+[data-selenium-video-tile="518521589181054988"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/518521589181054988.avif");}
+[data-selenium-video-tile="174868361040232448"] .background__3b30f{--vcbg: url("//source.unsplash.com/featured/?{Frog}")}
+[data-selenium-video-tile="427179231164760066"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/agp.avif")}
+[data-selenium-video-tile="354191516979429376"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/domi.avif")}
+[data-selenium-video-tile="538487970408300544"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/axolotl.avif")}
+[data-selenium-video-tile="133659541198864384"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/133659541198864384.avif")} 
+[data-selenium-video-tile="176480481066352640"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/176480481066352640.avif")} 
+[data-selenium-video-tile="880058157139918898"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/880058157139918898.avif")}
+[data-selenium-video-tile="801089753038061669"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/riddim.avif")}
+[data-selenium-video-tile="895958242105122826"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/895958242105122826.avif")}
+[data-selenium-video-tile="870734002074562602"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/870734002074562602.avif")}
+[data-selenium-video-tile="819191621676695563"] .background__3b30f{--vcbg: url("//ik.imagekit.io/vcbg/KamiRu.avif")}
