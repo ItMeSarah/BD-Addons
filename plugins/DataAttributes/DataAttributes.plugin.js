@@ -1,7 +1,7 @@
 /**
  * @name DataAttributes
  * @description Adds helpful data attributes to different elements. Useful for themes.
- * @version 1.0.3
+ * @version 1.0.4
  * @author Zerebos
  */
  
@@ -87,8 +87,8 @@ return S.SettingPanel.build((id, value) => {
 		if (!e.addedNodes.length || !(e.addedNodes[0] instanceof Element)) return;
 		const element = e.addedNodes[0];
 		if (settings.popouts) {
-			const popout = element.querySelector(`[class*="userPopoutOuter-"]`) ?? element;
-			if (popout && popout.matches(`[class*="userPopout-"],[class*="userPopoutOuter-"]`)) {
+			const popout = element.querySelector(`[class*="userPopoutOuter_"]`) ?? element;
+			if (popout && popout.matches(`[class*="userPopoutOuter_"]`)) {
 				const userId = findInTree(BdApi.ReactUtils.getInternalInstance(popout), m => m?.user?.id || m?.userId || m?.message?.author?.id, {
 					walkable: ["memoizedProps", "return"]
 				});
@@ -97,7 +97,7 @@ return S.SettingPanel.build((id, value) => {
 			}
 }
 		if (settings.modals) {
-		const modal = element.querySelector(`[class*="root-8LYsGj"],[class*="root-2uUafN"]`);
+		const modal = element.querySelector(`[class*="root_ba16f0"]`);
 		if (modal) {
 			const userId = findInTree(BdApi.ReactUtils.getInternalInstance(modal), m => m?.user?.id || m?.userId || m?.message?.author?.id, {
 				walkable: ["memoizedProps", "return"]
@@ -107,7 +107,7 @@ return S.SettingPanel.build((id, value) => {
 			}
 }
 		if (settings.usernames) {
-        const usernames = element.querySelectorAll(`[class*="username-"]`);
+        const usernames = element.querySelectorAll(`[class*="username_"], [class*="heading-lg-semibold_"], [class*="nickname_"], [class*="userTagUsernameBase_"], [class*="discriminator_"]`);
         if (usernames.length) {
             for (const username of usernames) {
                 const userId = findInTree(BdApi.ReactUtils.getInternalInstance(username), m => m?.user?.id || m?.userId || m?.message?.author?.id, {walkable: ["memoizedProps", "return"]});
@@ -118,7 +118,7 @@ return S.SettingPanel.build((id, value) => {
 }
 
 		if (settings.messages) {
-		const messages = element.querySelectorAll(`[class*="message-2CShn3"]`);
+		const messages = element.querySelectorAll(`[class*="message__80c10"]`);
 		if (messages.length) {
 			for (const message of messages) {
 				const userId = findInTree(BdApi.ReactUtils.getInternalInstance(message), m => m?.user?.id || m?.userId || m?.message?.author?.id, {walkable: ["memoizedProps", "return"]});

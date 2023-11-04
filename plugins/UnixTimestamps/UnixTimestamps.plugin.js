@@ -1,7 +1,7 @@
 /**
  * @name UnixTimestamps
  * @description Like regular timestamps, but unix.
- * @version 1.0.0
+ * @version 1.0.1
  * @author Zerebos
  */
 
@@ -29,8 +29,8 @@
 
 @else@*/
 
-const pt = BdApi.Webpack.getModule(m => m?.toString?.()?.includes("formatted:"), {searchExports: true});
-const mt = BdApi.Webpack.getModule(m => m?.toString?.()?.includes("MESSAGE_EDITED_TIMESTAMP_A11Y_LABEL"), {defaultExport: false});
+const timestampTools = BdApi.Webpack.getByKeys("unparseTimestamp");
+const messageTimestamp = BdApi.Webpack.getByStrings("MESSAGE_EDITED_TIMESTAMP_A11Y_LABEL", {defaultExport: false});
 
 const getClass = (original, args) => {
     class unixTimestamp extends BdApi.React.Component {
@@ -42,18 +42,18 @@ const getClass = (original, args) => {
         }
         render() {
             const ret = Reflect.apply(original, null, [this.props]);
-            const ts = pt(args[0].timestamp.unix(), "R");
+            const ts = timestampTools.parseTimestamp(args[0].timestamp.unix(), "R");
             ret.props.children.props.children[1] = ts.formatted;
             return ret;
         }
     }
-    return function() {return BdApi.React.createElement(unixTimestamp, arguments[0])};
+    return props => BdApi.React.createElement(unixTimestamp, props);
 };
 
 module.exports = class unixTimestamps { 
     start() {
         
-        BdApi.Patcher.after("unixTimestamps", mt, "Z", (t,a,r) => {
+        BdApi.Patcher.after("unixTimestamps", messageTimestamp, "default", (t,a,r) => {
             const orig = r.props.children.props.children;
             if (orig.__patched) return;
             r.props.children.props.children = getClass(orig, a);
