@@ -103,8 +103,8 @@ module.exports = class UserAffinities {
         if (!e.addedNodes.length || !(e.addedNodes[0] instanceof Element)) return;
         const element = e.addedNodes[0];
 
-        const popout = element.querySelector(`[class*="userPopout_"],[class*="userPopoutOuter_"]`) ?? element;
-        if (popout && popout.matches(`[class*="userPopout_"],[class*="userPopoutOuter_"]`)) {
+        const popout = element.querySelector(`[class*="userPopout-"],[class*="userPopoutOuter-"]`) ?? element;
+        if (popout && popout.matches(`[class*="userPopout-"],[class*="userPopoutOuter-"]`)) {
             const userId = findInTree(BdApi.ReactUtils.getInternalInstance(popout), m => m?.user?.id || m?.userId || m?.message?.author?.id, {walkable: ["memoizedProps", "return"]});
             const id = userId?.userId ?? userId?.user?.id ?? userId?.message?.author?.id;
 
@@ -128,14 +128,14 @@ module.exports = class UserAffinities {
             affinityWrap.append(affinityLabel);
             affinityWrap.append(affinityValue);
 
-            const wrapper = popout.querySelector(`[class*="userText_"]`);
+            const wrapper = popout.querySelector(`[class*="userText-"]`);
             wrapper.append(affinityWrap);
         }
 
 
 
 
-        const modal = element.querySelector(`[class*="root_ba16f0"]`);
+        const modal = element.querySelector(`[class*="root-8LYsGj"]`);
         if (modal) {
             const userId = findInTree(BdApi.ReactUtils.getInternalInstance(modal), m => m?.user?.id || m?.userId || m?.message?.author?.id, {walkable: ["memoizedProps", "return"]});
             const id = userId?.userId ?? userId?.user?.id ?? userId?.message?.author?.id;
@@ -159,7 +159,7 @@ module.exports = class UserAffinities {
             affinityWrap.append(affinityLabel);
             affinityWrap.append(affinityValue);
 
-            const wrapper = modal.querySelector(`[class*="container_b6b15b"]`);
+            const wrapper = modal.querySelector(`[class*="container-3g15px"]`);
             wrapper.append(affinityWrap);
         }
     }
