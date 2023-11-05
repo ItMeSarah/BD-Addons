@@ -4,7 +4,6 @@
  * @version 1.0.1
  * @author Zerebos
  */
- 
 /*@cc_on
 @if (@_jscript)
     
