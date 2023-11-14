@@ -15173,6 +15173,43 @@
             pendingIcon: "pendingIcon__93eae"
         }
     },
+    645897: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            closeButton: "closeButton__918af",
+            hangStatusSelector: "hangStatusSelector_c82f29",
+            modalContent: "modalContent_a47f81",
+            modalHeader: "modalHeader_a62250",
+            statusWidget: "statusWidget__729de"
+        }
+    },
+    730039: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            widget: "widget_c99b48",
+            wrapper: "wrapper__139c2"
+        }
+    },
+    492013: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            iconWidget: "iconWidget_db0821",
+            popoutWrapper: "popoutWrapper__16db8",
+            statusButtonRegion: "statusButtonRegion__47ea7",
+            statusWidget: "statusWidget__878ca"
+        }
+    },
+    207509: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            customStatusText: "customStatusText__79d70",
+            iconWidget: "iconWidget_b2ac71",
+            iconWidgetIcon: "iconWidgetIcon__4c03a",
+            statusGroup: "statusGroup__7809a",
+            statusIcon: "statusIcon__87cd6",
+            statusTextRow: "statusTextRow__084d2"
+        }
+    },
     961282: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -23327,7 +23364,6 @@
         "use strict";
         e.exports = {
             animation: "animation_fb8933",
-            avatarSection: "avatarSection__70250",
             buttons: "buttons_f09f3a",
             closeButton: "closeButton_bf7ece",
             closeIcon: "closeIcon_f4b9e3",
