@@ -15182,6 +15182,13 @@
             pendingIcon: "pendingIcon__93eae"
         }
     },
+    36553: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container_dc9894",
+            emoji: "emoji_a0e68f"
+        }
+    },
     645897: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -19202,6 +19209,7 @@
             displayNameContainer: "displayNameContainer__8b99c",
             displayNameHeight: "displayNameHeight__167a8",
             eyebrow: "eyebrow__4498b",
+            fetchText: "fetchText_faa37c",
             finishTitle: "finishTitle_aed0f9",
             formMessage: "formMessage__7dd30",
             formMessageNegative: "formMessageNegative_cfa9d9",
@@ -19245,6 +19253,7 @@
             inputContainer: "inputContainer__910d7",
             legacyUsernameBadge: "legacyUsernameBadge__465a4",
             legacyUsernameBadgeContainer: "legacyUsernameBadgeContainer__31fca",
+            link: "link__36df4",
             lowercaseUsername: "lowercaseUsername__387a0",
             memberText: "memberText__6e340",
             messageContainer: "messageContainer_ea1299",
@@ -19263,6 +19272,7 @@
             reflect: "reflect__2a1e1",
             shiny: "shiny_e1c7b3",
             shinyCard: "shinyCard__45a74",
+            spinnerIcon: "spinnerIcon__114cb",
             subtitle: "subtitle_e78061",
             subtitleFinish: "subtitleFinish__59e16",
             subtitleInfo: "subtitleInfo_c94b93",
@@ -19597,6 +19607,7 @@
             giftButtonCTA: "giftButtonCTA__59977",
             giftCard: "giftCard__30972",
             giftCardButton: "giftCardButton__12614",
+            giftCardSeasonal: "giftCardSeasonal__09a1e",
             giftImage: "giftImage__40a78",
             giftInfo: "giftInfo__7d210",
             giftText: "giftText_ee96a2",
@@ -19604,6 +19615,7 @@
             image: "image__373a2",
             managePlanButton: "managePlanButton__581cc",
             rimGlowTier2: "rimGlowTier2__41f8e",
+            seasonalGiftImage: "seasonalGiftImage__62179",
             tier2PlanComparisonTableBackground: "tier2PlanComparisonTableBackground__39420",
             tierCard: "tierCard__2ae27",
             tierCardButton: "tierCardButton__24d35",
