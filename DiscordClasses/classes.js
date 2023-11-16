@@ -12556,7 +12556,8 @@
             button: "button__4900d",
             heading: "heading__2f354",
             recurrences: "recurrences_c13348",
-            scroller: "scroller__6589a"
+            scroller: "scroller__6589a",
+            showScroller: "showScroller__06348"
         }
     },
     234865: function(e, t, o) {
@@ -12833,6 +12834,7 @@
             creator: "creator__7ba98",
             cursorPointer: "cursorPointer__41d35",
             description: "description__6f48b",
+            divider: "divider_a10d0d",
             externalLocation: "externalLocation_a32c26",
             guildBadge: "guildBadge__9a293",
             guildIcon: "guildIcon__94100",
@@ -15193,10 +15195,13 @@
         "use strict";
         e.exports = {
             closeButton: "closeButton__918af",
+            customInput: "customInput_ac30ac",
+            customInputRow: "customInputRow__1eb00",
             hangStatusSelector: "hangStatusSelector_c82f29",
             modalContent: "modalContent_a47f81",
             modalHeader: "modalHeader_a62250",
-            statusWidget: "statusWidget__729de"
+            statusWidget: "statusWidget__729de",
+            statusWidgetSelected: "statusWidgetSelected__37084"
         }
     },
     730039: function(e, t, o) {
@@ -15209,6 +15214,7 @@
     492013: function(e, t, o) {
         "use strict";
         e.exports = {
+            defaultIcon: "defaultIcon__8ffba",
             iconWidget: "iconWidget_db0821",
             popoutWrapper: "popoutWrapper__16db8",
             statusButtonRegion: "statusButtonRegion__47ea7",
@@ -16526,6 +16532,12 @@
         "use strict";
         e.exports = {}
     },
+    909266: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            icon: "icon__13ad2"
+        }
+    },
     781606: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -17189,7 +17201,6 @@
         e.exports = {
             Shine: "Shine__245a1",
             icon: "icon__88132",
-            iconHidden: "iconHidden__8b643",
             label: "label_ee78c3",
             labelChecked: "labelChecked__9347e",
             nitroWheel: "nitroWheel_aa56ce",
@@ -19607,6 +19618,7 @@
             giftButtonCTA: "giftButtonCTA__59977",
             giftCard: "giftCard__30972",
             giftCardButton: "giftCardButton__12614",
+            giftCardButtonColor: "giftCardButtonColor__59b3f",
             giftCardSeasonal: "giftCardSeasonal__09a1e",
             giftImage: "giftImage__40a78",
             giftInfo: "giftInfo__7d210",
@@ -19615,6 +19627,7 @@
             image: "image__373a2",
             managePlanButton: "managePlanButton__581cc",
             rimGlowTier2: "rimGlowTier2__41f8e",
+            seasonalColor: "seasonalColor__0b327",
             seasonalGiftImage: "seasonalGiftImage__62179",
             tier2PlanComparisonTableBackground: "tier2PlanComparisonTableBackground__39420",
             tierCard: "tierCard__2ae27",
@@ -23423,12 +23436,14 @@
         "use strict";
         e.exports = {
             animation: "animation_fb8933",
+            avatarButton: "avatarButton_cf8136",
             buttons: "buttons_f09f3a",
             closeButton: "closeButton_bf7ece",
             closeIcon: "closeIcon_f4b9e3",
             container: "container__9dbd2",
             containerWrapper: "containerWrapper_fa6aa6",
             content: "content_e8dcfc",
+            contentWithAvatar: "contentWithAvatar_c8a371 content_e8dcfc",
             ctaLink: "ctaLink__2ccbd",
             hasCollectiblesUpsell: "hasCollectiblesUpsell_b3dee4",
             inSidebar: "inSidebar__37db7",
