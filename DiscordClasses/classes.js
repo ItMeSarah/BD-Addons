@@ -4993,6 +4993,7 @@
             archive: "archive__2249d",
             attachmentItemSmall: "attachmentItemSmall__2cb8c",
             audio: "audio__4fc0c",
+            clickableMedia: "clickableMedia__12a0b",
             code: "code_d3dfc7",
             document: "document__49623",
             filename: "filename__7ce23",
@@ -15207,7 +15208,12 @@
     730039: function(e, t, o) {
         "use strict";
         e.exports = {
-            widget: "widget_c99b48",
+            avatar: "avatar__3547f",
+            contentContainer: "contentContainer__4f798",
+            cta: "cta__86081",
+            iconGroup: "iconGroup__93485",
+            statusGroup: "statusGroup_ebfa6c",
+            statusIcon: "statusIcon__3e5cd",
             wrapper: "wrapper__139c2"
         }
     },
@@ -15215,7 +15221,14 @@
         "use strict";
         e.exports = {
             defaultIcon: "defaultIcon__8ffba",
+            divider: "divider__26943",
+            editIcon: "editIcon__562b8",
+            editOption: "editOption_fbe509",
             iconWidget: "iconWidget_db0821",
+            iconsContainer: "iconsContainer__44b35",
+            optionIcon: "optionIcon__4e55f",
+            popoutOption: "popoutOption__8c8cf",
+            popoutTitle: "popoutTitle__00ba8",
             popoutWrapper: "popoutWrapper__16db8",
             statusButtonRegion: "statusButtonRegion__47ea7",
             statusWidget: "statusWidget__878ca"
@@ -16673,6 +16686,7 @@
         "use strict";
         e.exports = {
             active: "active_a36bbb",
+            firstItem: "firstItem_ab16cb",
             messageRequestItem: "messageRequestItem__3b951"
         }
     },
@@ -24562,22 +24576,19 @@
             backgroundOptions: "backgroundOptions_e72ce2",
             backgroundOptionsLarge: "backgroundOptionsLarge_af0f26 backgroundOptions_e72ce2",
             backgroundOptionsSmall: "backgroundOptionsSmall__1a2d8 backgroundOptions_e72ce2",
-            blurOptionIcon: "blurOptionIcon__4040e",
             cameraPreviewTitle: "cameraPreviewTitle__3104c",
             customBackgroundTooltip: "customBackgroundTooltip_cd7a3c",
             customBackgroundTooltipIcon: "customBackgroundTooltipIcon__45ce5",
             imageInput: "imageInput_b5def2",
             newBackgroundTooltipContainer: "newBackgroundTooltipContainer_ab64e1",
             newTextBadge: "newTextBadge_da2cca",
-            noneOptionIcon: "noneOptionIcon_be7732",
             overflowEllipsis: "overflowEllipsis__78e39",
             permissionWarning: "permissionWarning__768f3",
             playIcon: "playIcon_af44c5",
             previewToggle: "previewToggle_dcb6b1",
             selector: "selector__097b2",
             selectorNoHeader: "selectorNoHeader__26379",
-            spacingTop24: "spacingTop24__04a8d",
-            uploadIconOption: "uploadIconOption__973d0"
+            spacingTop24: "spacingTop24__04a8d"
         }
     },
     38064: function(e, t, o) {
