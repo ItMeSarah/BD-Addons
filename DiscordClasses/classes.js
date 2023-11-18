@@ -5615,18 +5615,15 @@
     55395: function(e, t, o) {
         "use strict";
         e.exports = {
-            avatarDecorationItem: "avatarDecorationItem__3799e",
             close: "close_c83a09",
             closeIcon: "closeIcon__6dc3a",
-            collectiblesList: "collectiblesList_af2701",
             container: "container__0ec3c",
             content: "content__28297",
             cta: "cta_ca821f",
             ctaContainer: "ctaContainer__95bd7",
-            item: "item_cb31c7",
-            listWrapper: "listWrapper_f538db",
-            loading: "loading_cb78e1",
-            selectedItem: "selectedItem__7494b",
+            listContainer: "listContainer_c0b21e",
+            segmentControl: "segmentControl__626aa",
+            segmentControlOption: "segmentControlOption__79596",
             title: "title_f462e1"
         }
     },
@@ -5656,6 +5653,19 @@
         "use strict";
         e.exports = {
             typePill: "typePill_eaf8d6"
+        }
+    },
+    312595: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            avatarDecorationItem: "avatarDecorationItem_c53626",
+            collectiblesList: "collectiblesList_b551dd",
+            item: "item_ecbedf",
+            loading: "loading__3f327",
+            presetEffectBackground: "presetEffectBackground__58a7d",
+            presetEffectImg: "presetEffectImg_b4d9ed",
+            selectedAvatarDecorationItem: "selectedAvatarDecorationItem_aa358a",
+            selectedProfileEffectItem: "selectedProfileEffectItem__83a5c"
         }
     },
     224609: function(e, t, o) {
@@ -5748,6 +5758,12 @@
         "use strict";
         e.exports = {
             art: "art_eaee27"
+        }
+    },
+    247629: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            coachmark: "coachmark__0e6e3"
         }
     },
     98881: function(e, t, o) {
@@ -21088,14 +21104,6 @@
             tooltip: "tooltip_de8393",
             tooltipInner: "tooltipInner_a1b446",
             tooltipText: "tooltipText__955d4"
-        }
-    },
-    661597: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            imageLoader: "imageLoader_faf230",
-            loading: "loading_b968ad",
-            shopArt: "shopArt__1605a"
         }
     },
     825054: function(e, t, o) {
