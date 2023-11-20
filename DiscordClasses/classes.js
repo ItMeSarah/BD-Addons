@@ -4397,16 +4397,6 @@
             uploadArea: "uploadArea__4f70b"
         }
     },
-    202632: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            chatHeaderBar: "chatHeaderBar__3e137",
-            chatHeaderBarButton: "chatHeaderBarButton_afdab1",
-            chatHeaderBarIcon: "chatHeaderBarIcon_bb8392",
-            chatHeaderBarIconStrikethrough: "chatHeaderBarIconStrikethrough_a34a3e",
-            chatHeaderBarText: "chatHeaderBarText_c5e625"
-        }
-    },
     207058: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -6473,23 +6463,6 @@
         e.exports = {
             panel: "panel_fefdd0",
             switch: "switch_ea7730"
-        }
-    },
-    149310: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            badge: "badge_d1b68f",
-            channelActions: "channelActions__47e01",
-            channelName: "channelName__400a1",
-            channelRow: "channelRow__3e5c2",
-            highlightsPanel: "highlightsPanel__1a235",
-            infoBar: "infoBar_bd2816",
-            markUnread: "markUnread__9a7cb",
-            panel: "panel__33a0b",
-            refreshButton: "refreshButton__8785f",
-            rejectedPanel: "rejectedPanel_af9977",
-            rejectedRow: "rejectedRow_edbe21",
-            scroller: "scroller__86964"
         }
     },
     96896: function(e, t, o) {
@@ -14639,8 +14612,8 @@
             modeLocked: "modeLocked_fcc71a",
             modeMuted: "modeMuted__0aeea",
             modeSelected: "modeSelected__487d6",
-            modeUnread: "modeUnread_f74c03",
-            modeUnreadNormal: "modeUnreadNormal__5b9ce",
+            modeUnreadImportant: "modeUnreadImportant_efb53e",
+            modeUnreadLessImportant: "modeUnreadLessImportant__5058b",
             name: "name__8d1ec",
             newBadge: "newBadge__6ec22",
             notInteractive: "notInteractive_a7d9fb",
@@ -14653,7 +14626,7 @@
             typeThread: "typeThread__2f91c",
             typeVoice: "typeVoice_f4ba92",
             unread: "unread__48cf4",
-            unreadRelevant: "unreadRelevant__44f9e",
+            unreadImportant: "unreadImportant_c775b3",
             wrapper: "wrapper__7bcde"
         }
     },
@@ -15127,7 +15100,6 @@
             folderIconPreview: "folderIconPreview__74ac3",
             folderIconWrapper: "folderIconWrapper__72239",
             guildIcon: "guildIcon__2e5ab",
-            guildIconMuted: "guildIconMuted_f01a5d",
             guildIconUnavailable: "guildIconUnavailable_db5297",
             hover: "hover__043de",
             miniPlaceholder: "miniPlaceholder__62f9d",
@@ -15138,7 +15110,6 @@
         "use strict";
         e.exports = {
             blobContainer: "blobContainer__5ee50",
-            muted: "muted_a607eb",
             pill: "pill__6b31b",
             selected: "selected__98d51",
             sorting: "sorting_b1e76b",
@@ -15213,12 +15184,12 @@
         e.exports = {
             closeButton: "closeButton__918af",
             customInput: "customInput_ac30ac",
-            customInputRow: "customInputRow__1eb00",
-            hangStatusSelector: "hangStatusSelector_c82f29",
+            customInputGroup: "customInputGroup__0040e",
+            emoji: "emoji__8b920",
+            emojiButton: "emojiButton__15a10",
             modalContent: "modalContent_a47f81",
-            modalHeader: "modalHeader_a62250",
-            statusWidget: "statusWidget__729de",
-            statusWidgetSelected: "statusWidgetSelected__37084"
+            modalFooter: "modalFooter__433c9",
+            pickerBackground: "pickerBackground_ad736b"
         }
     },
     730039: function(e, t, o) {
@@ -15253,12 +15224,11 @@
     207509: function(e, t, o) {
         "use strict";
         e.exports = {
-            customStatusText: "customStatusText__79d70",
             iconWidget: "iconWidget_b2ac71",
             iconWidgetIcon: "iconWidgetIcon__4c03a",
             statusGroup: "statusGroup__7809a",
             statusIcon: "statusIcon__87cd6",
-            statusTextRow: "statusTextRow__084d2"
+            statusText: "statusText__40040"
         }
     },
     961282: function(e, t, o) {
@@ -16847,23 +16817,6 @@
             size: "size_a04566"
         }
     },
-    27885: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            button: "button__78cb5",
-            container: "container__45e29",
-            highlightIcon: "highlightIcon_c8619e",
-            highlightsCountContainer: "highlightsCountContainer_b68eee",
-            icon: "icon_e00668",
-            jumpSpinner: "jumpSpinner__140de",
-            navigator: "navigator__2971c",
-            newText: "newText_b9277f text__6a682",
-            oldText: "oldText_ecf2d0 text__6a682",
-            rollingText: "rollingText_ed93d1",
-            spinner: "spinner__1924f",
-            text: "text__6a682"
-        }
-    },
     877671: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -17522,62 +17475,6 @@
             container: "container__2c498",
             loadingPlaceholder: "loadingPlaceholder__408ba",
             spinner: "spinner__62006"
-        }
-    },
-    6847: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            container: "container_c62dc2",
-            header: "header__20f6b",
-            headerName: "headerName__9c2f4 header__20f6b",
-            headerOption: "headerOption__6b9ca header__20f6b",
-            largeSpacing: "largeSpacing__055be",
-            lighten: "lighten__330f9",
-            overrideHeader: "overrideHeader__71b50 lighten__330f9",
-            overrideList: "overrideList__091dd",
-            overridePlaceholder: "overridePlaceholder_ee89b0",
-            smallSpacing: "smallSpacing__7469f"
-        }
-    },
-    723859: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            content: "content_feb651",
-            modal: "modal_cd2a9f",
-            subtitleText: "subtitleText_db43f5",
-            tabBar: "tabBar_adb0dd",
-            tabBarItem: "tabBarItem__9bc4a"
-        }
-    },
-    600937: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            disabled: "disabled__30b0b",
-            radioItem: "radioItem__053f5"
-        }
-    },
-    568222: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            container: "container__8065f",
-            discordIconContainer: "discordIconContainer_e5bf8e",
-            guildIconContainer: "guildIconContainer__147e5",
-            messageCount: "messageCount__28b2f",
-            notificationBadge: "notificationBadge__72436",
-            semiCircle: "semiCircle__814d3",
-            settingContainer: "settingContainer_cba362"
-        }
-    },
-    526211: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            container: "container__95f79",
-            divider: "divider__17711",
-            dropDown: "dropDown__1f110",
-            dropDownContainer: "dropDownContainer__04f2f",
-            highlightsText: "highlightsText__434ef",
-            largeSpacing: "largeSpacing_e8e717",
-            switchItemContainer: "switchItemContainer_e86f69"
         }
     },
     232425: function(e, t, o) {
@@ -19208,7 +19105,8 @@
         "use strict";
         e.exports = {
             bottomBar: "bottomBar_ef16d0",
-            container: "container__3ca24"
+            container: "container__3ca24",
+            textButton: "textButton__33241"
         }
     },
     139583: function(e, t, o) {
