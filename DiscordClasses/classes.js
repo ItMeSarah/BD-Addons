@@ -5715,6 +5715,8 @@
             defaultPreviewButtonColor: "defaultPreviewButtonColor__78b22",
             description: "description_fe9f93",
             detailsWrapper: "detailsWrapper__886fe",
+            giftButton: "giftButton_e57d96",
+            giftButtonInner: "giftButtonInner__1690d",
             hoverUpsellContainer: "hoverUpsellContainer__16f55",
             innerBlur: "innerBlur_d49d8a",
             innerHover: "innerHover_a6fa92",
@@ -18602,11 +18604,22 @@
             modalOverrideSliderBody: "modalOverrideSliderBody_e95d2e"
         }
     },
+    578956: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            bodyColumnMiddle: "bodyColumnMiddle_f4bcdf",
+            bodyColumnRight: "bodyColumnRight__94a69",
+            stepBody: "stepBody__0162f"
+        }
+    },
     504898: function(e, t, o) {
         "use strict";
         e.exports = {
             closeButton: "closeButton__1f98c",
+            closeButtonGift: "closeButtonGift_e7972a",
             headerContainer: "headerContainer__1a9fc",
+            headerContainerGift: "headerContainerGift_bd1eea",
+            headerGift: "headerGift__9576b",
             headerImage: "headerImage_f493db",
             headerImageContainer: "headerImageContainer__96dc0"
         }
@@ -18762,6 +18775,8 @@
             currencyWrapper: "currencyWrapper_d909d4",
             errorBlock: "errorBlock__3b86d",
             fineprint: "fineprint__99591",
+            giftMainAnimation: "giftMainAnimation__338ff",
+            giftMainAnimationWrapper: "giftMainAnimationWrapper__52513",
             invoice: "invoice_e9fa87",
             invoiceSpinner: "invoiceSpinner_cdcb1c",
             paymentSourceWrapper: "paymentSourceWrapper_e2260a",
