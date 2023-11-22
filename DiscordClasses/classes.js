@@ -1686,16 +1686,18 @@
         "use strict";
         e.exports = {
             customGiftEmbedBox: "customGiftEmbedBox_a3693f",
+            customGiftEmbedBoxHorizontal: "customGiftEmbedBoxHorizontal__5eb39",
             customGiftEmbedWrapper: "customGiftEmbedWrapper__1b187",
             giftEmbedWrapperHorizontal: "giftEmbedWrapperHorizontal__2bc4f",
             headerIcon: "headerIcon__97d68",
             invalidPoop: "invalidPoop__03aa3",
             invalidPoopHorizontal: "invalidPoopHorizontal__098a8",
+            legacySeasonalGiftEmbedBox: "legacySeasonalGiftEmbedBox__251f9",
+            legacySeasonalGiftEmbedBoxHorizontal: "legacySeasonalGiftEmbedBoxHorizontal__1b670",
+            legacySeasonalGiftEmbedWrapper: "legacySeasonalGiftEmbedWrapper__40672",
             libraryIcon: "libraryIcon__64ed7",
             libraryLink: "libraryLink_c20b2b",
             metadata: "metadata_b9783d",
-            seasonalGiftEmbedBox: "seasonalGiftEmbedBox_d42394",
-            seasonalGiftEmbedWrapper: "seasonalGiftEmbedWrapper_e15b35",
             snow: "snow__33825"
         }
     },
@@ -10411,6 +10413,10 @@
             movedTable: "movedTable__31aca",
             noResultsContainer: "noResultsContainer_bebecd",
             page: "page__6780f",
+            settingsColumn: "settingsColumn__23153 " + o("241372").customColumn,
+            settingsContainer: "settingsContainer__21422 " + o("241372").customContainer,
+            settingsContent: "settingsContent_cd9872 " + o("241372").contentColumnDefault + " settingsColumn__23153 " + o("241372").customColumn,
+            settingsScroller: "settingsScroller_ac87dd " + o("241372").customScroller + " " + o("241372").contentRegionScroller,
             tableContainer: "tableContainer__62f2f"
         }
     },
@@ -10643,6 +10649,7 @@
             button: "button_fb10b9",
             code: "code__342bf",
             communicationDisabledTooltip: "communicationDisabledTooltip__61d8d",
+            compact: "compact__3f738",
             disabledActionTooltip: "disabledActionTooltip__7442a",
             "display-lg": "display-lg__4f537",
             "display-md": "display-md_b9aaaf",
@@ -15177,6 +15184,7 @@
         "use strict";
         e.exports = {
             closeButton: "closeButton__918af",
+            closeIcon: "closeIcon__5392c",
             customInput: "customInput_ac30ac",
             customInputGroup: "customInputGroup__0040e",
             emoji: "emoji__8b920",
@@ -15201,16 +15209,23 @@
     492013: function(e, t, o) {
         "use strict";
         e.exports = {
+            comingSoonIcon: "comingSoonIcon_d5180a",
+            customIcon: "customIcon_a37db4",
             defaultIcon: "defaultIcon__8ffba",
+            deleteOption: "deleteOption_c9549f",
+            disabledWidget: "disabledWidget_a64d38",
             divider: "divider__26943",
             editIcon: "editIcon__562b8",
             editOption: "editOption_fbe509",
+            icon: "icon__7eecf",
             iconWidget: "iconWidget_db0821",
             iconsContainer: "iconsContainer__44b35",
             optionIcon: "optionIcon__4e55f",
             popoutOption: "popoutOption__8c8cf",
             popoutTitle: "popoutTitle__00ba8",
             popoutWrapper: "popoutWrapper__16db8",
+            recentIcon: "recentIcon__43beb",
+            selectedWidget: "selectedWidget__1e288",
             statusButtonRegion: "statusButtonRegion__47ea7",
             statusWidget: "statusWidget__878ca"
         }
@@ -15219,7 +15234,6 @@
         "use strict";
         e.exports = {
             iconWidget: "iconWidget_b2ac71",
-            iconWidgetIcon: "iconWidgetIcon__4c03a",
             statusGroup: "statusGroup__7809a",
             statusIcon: "statusIcon__87cd6",
             statusText: "statusText__40040"
@@ -27991,6 +28005,7 @@
             activityUserPopoutV2: "activityUserPopoutV2__32328",
             activityVoiceChannel: "activityVoiceChannel_e4ac9b",
             assets: "assets__5bee0",
+            assetsHangStatus: "assetsHangStatus__0a328",
             assetsLargeImage: "assetsLargeImage_b88a59",
             assetsLargeImageActivityFeed: "assetsLargeImageActivityFeed_e92ab7 assetsLargeImage_b88a59",
             assetsLargeImageActivityFeedTwitch: "assetsLargeImageActivityFeedTwitch__1c589 assetsLargeImage_b88a59",
