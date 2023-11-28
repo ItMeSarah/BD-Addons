@@ -5616,6 +5616,7 @@
             listContainer: "listContainer_c0b21e",
             segmentControl: "segmentControl__626aa",
             segmentControlOption: "segmentControlOption__79596",
+            segmentControlOptionSelected: "segmentControlOptionSelected_fa6c0e",
             title: "title_f462e1"
         }
     },
@@ -5641,6 +5642,23 @@
             zoomin: "zoomin_fa2e9f"
         }
     },
+    416465: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            avatarDecoration: "avatarDecoration__9affd",
+            previewContainer: "previewContainer_d611ef",
+            previewTextContainer: "previewTextContainer__2fa3a",
+            profileEffect: "profileEffect__8c12b",
+            profileEffectBackground: "profileEffectBackground_c9a6c7",
+            profileEffectContainer: "profileEffectContainer_dd2b9f"
+        }
+    },
+    608284: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            art: "art_f8934e"
+        }
+    },
     312595: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -5658,17 +5676,6 @@
         "use strict";
         e.exports = {
             badge: "badge__38d19"
-        }
-    },
-    477517: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            fullPrice: "fullPrice__7129e",
-            premiumIcon: "premiumIcon__7552e",
-            price: "price_f23b9d",
-            priceTag: "priceTag__6412e",
-            priceTagsContainer: "priceTagsContainer__56f89",
-            strikedPrice: "strikedPrice__3d62a"
         }
     },
     451594: function(e, t, o) {
@@ -5724,7 +5731,7 @@
             premiumWheelTooltipContent: "premiumWheelTooltipContent_b77409",
             previewButton: "previewButton_d97700",
             previewButtonInner: "previewButtonInner__42555",
-            price: "price__420be",
+            priceTag: "priceTag_bc0599",
             productName: "productName_c5d6c9",
             profileEffectCheckmarkWrapper: "profileEffectCheckmarkWrapper_bd92bc checkmarkWrapper__00d04",
             profileEffectShopPreview: "profileEffectShopPreview_b30d2e",
@@ -5760,12 +5767,6 @@
             modalContent: "modalContent__75434",
             previewBody: "previewBody_a50037",
             title: "title_febf25"
-        }
-    },
-    247629: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            coachmark: "coachmark__0e6e3"
         }
     },
     436752: function(e, t, o) {
@@ -5804,6 +5805,22 @@
             subscribeButton: "subscribeButton__04c7f"
         }
     },
+    173046: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            fullPrice: "fullPrice__60740",
+            premiumIcon: "premiumIcon_a11fa9",
+            priceTagsContainer: "priceTagsContainer_ec48ba",
+            strikedPrice: "strikedPrice__8ff25"
+        }
+    },
+    846367: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            heading: "heading__1a617",
+            price: "price_ed9315"
+        }
+    },
     483622: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -5829,11 +5846,15 @@
             nonPremiumContainer: "nonPremiumContainer__1e8d5",
             nonPremiumPrice: "nonPremiumPrice__59933",
             premiumIcon: "premiumIcon_fdaf41",
+            premiumPriceTag: "premiumPriceTag__689f7",
+            premiumPriceTagIcon: "premiumPriceTagIcon__89d85",
             previewsContainerInner: "previewsContainerInner__0209d",
             priceTag: "priceTag_ff491e",
+            priceTagContainer: "priceTagContainer_d7594f",
             primaryButtons: "primaryButtons_a62ae3",
             profileCustomizationBody: "profileCustomizationBody__54bc4",
             profileEffectPreviewsContainerInner: "profileEffectPreviewsContainerInner__6a362 previewsContainerInner__0209d",
+            subscribeNow: "subscribeNow_c2dbf4",
             titleContainer: "titleContainer_faa17e",
             titleImage: "titleImage__09f75",
             tooltip: "tooltip__1a014",
@@ -5851,6 +5872,15 @@
             cardTitle: "cardTitle__05039",
             placeholderPulse: "placeholderPulse__86815",
             skeleton: "skeleton__5ac25"
+        }
+    },
+    322853: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            coachmark: "coachmark_db913c",
+            imageLoader: "imageLoader__0a236",
+            loading: "loading__9320e",
+            shopArt: "shopArt_acfdd5"
         }
     },
     601664: function(e, t, o) {
@@ -5884,6 +5914,7 @@
             mainColumn: "mainColumn_f44fc2",
             marketingPage: "marketingPage_f11849",
             shopForAllBackgroundImage: "shopForAllBackgroundImage__009d9",
+            shopForAllWinterBackground: "shopForAllWinterBackground__34a14",
             textBody: "textBody__282cf",
             title: "title__5fd27"
         }
@@ -7576,6 +7607,7 @@
             button: "button__2c788",
             buttonContainerHorizontal: "buttonContainerHorizontal__6dfc0",
             buttonContainerVertical: "buttonContainerVertical__4e562",
+            centerLeftPointer: "centerLeftPointer_e91d1b",
             confirmButton: "confirmButton_d80bfe",
             content: "content__73f32",
             contentNoArt: "contentNoArt__36baa",
@@ -7586,9 +7618,9 @@
             gifTag: "gifTag__42f4e",
             header: "header__7f549",
             headerWithPremiumIcon: "headerWithPremiumIcon__17fee header__7f549",
-            leftPointer: "leftPointer__95323",
             pointer: "pointer_cb5370",
             premiumIcon: "premiumIcon_aca97a",
+            topLeftPointer: "topLeftPointer_f6f72a",
             tryButton: "tryButton_bca111"
         }
     },
