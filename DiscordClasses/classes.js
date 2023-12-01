@@ -993,17 +993,17 @@
         "use strict";
         e.exports = {
             container: "container__0810b",
-            copyIcon: "copyIcon__2bc94",
             copyStatsButton: "copyStatsButton__3e018",
             debugButton: "debugButton__0c12a",
             graphContainer: "graphContainer_ee4dc1",
-            launchIcon: "launchIcon__4fc49",
+            lockIcon: "lockIcon__58b8f",
             popoutBottom: "popoutBottom_f1aeca",
             popoutText: "popoutText__56f7e",
             popoutTextDetails: "popoutTextDetails__94a41",
             section: "section__26a76",
             secured: "secured__615be",
-            separator: "separator_b26b65"
+            separator: "separator_b26b65",
+            textWithIcon: "textWithIcon__28467"
         }
     },
     515315: function(e, t, o) {
@@ -5697,8 +5697,9 @@
             confettiCanvas: "confettiCanvas__125ed",
             decorationBanner: "decorationBanner_d5fe2e",
             modalCloseButton: "modalCloseButton_a426a9",
-            modalContentOverrides: "modalContentOverrides_c63b7e",
+            modalContent: "modalContent__613a4",
             modalInner: "modalInner__0113c",
+            modalRoot: "modalRoot_fd87ec",
             profileEffectShopPreview: "profileEffectShopPreview__9dbc6",
             zoomin: "zoomin_fa2e9f"
         }
@@ -5779,8 +5780,10 @@
             page: "page_be1421",
             pageWrapper: "pageWrapper__582b9",
             pageWrapperFullscreen: "pageWrapperFullscreen__7f748",
+            regularShopCard: "regularShopCard__06c2e",
             shop: "shop_b31ed2",
             shopScroll: "shopScroll__2feb5",
+            tallerShopCard: "tallerShopCard__60f20",
             title: "title_f46d09"
         }
     },
@@ -5978,6 +5981,36 @@
             imageLoader: "imageLoader__0a236",
             loading: "loading__9320e",
             shopArt: "shopArt_acfdd5"
+        }
+    },
+    216365: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            avatar: "avatar_f6650d",
+            avatarPurchased: "avatarPurchased_eeb4c2",
+            buttonsContainer: "buttonsContainer_d7f186",
+            cardText: "cardText_e9b824",
+            cardTextProfileEffect: "cardTextProfileEffect_dab239",
+            checkmark: "checkmark__2ccd6",
+            checkmarkWrapper: "checkmarkWrapper_f2dab8",
+            defaultPreviewButtonColor: "defaultPreviewButtonColor__6cdf9",
+            description: "description__92b55",
+            detailsWrapper: "detailsWrapper_b31a7f",
+            hoverUpsellContainer: "hoverUpsellContainer__425f0",
+            innerBlur: "innerBlur_ed9e8f",
+            innerHover: "innerHover__54e25",
+            limitedTimeBadge: "limitedTimeBadge__19a7e",
+            premiumWheel: "premiumWheel__02495",
+            premiumWheelBadge: "premiumWheelBadge__2c9f2",
+            premiumWheelTooltipContent: "premiumWheelTooltipContent__189f4",
+            previewButton: "previewButton_c4b5ef",
+            previewButtonInner: "previewButtonInner_f775c4",
+            priceTag: "priceTag__76b4b",
+            productName: "productName_ece1e1",
+            profileEffectCheckmarkWrapper: "profileEffectCheckmarkWrapper_e65762 checkmarkWrapper_f2dab8",
+            profileEffectShopPreview: "profileEffectShopPreview_b8d693",
+            purchaseButton: "purchaseButton__63193",
+            shopCard: "shopCard_f7822b"
         }
     },
     601664: function(e, t, o) {
@@ -7199,7 +7232,6 @@
             header: "header__55964",
             inspector: "inspector__17331",
             isBurstReactionPicker: "isBurstReactionPicker__63df0",
-            isBurstReactionUnlimited: "isBurstReactionUnlimited_ef651a",
             searchBar: "searchBar__8f956",
             searchBarFullRow: "searchBarFullRow_e95c25",
             wrapper: "wrapper__66cd5"
@@ -7350,15 +7382,6 @@
         "use strict";
         e.exports = {
             emojiSpriteImage: "emojiSpriteImage__6363e"
-        }
-    },
-    167671: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            art: "art__34ddc",
-            button: "button__35cc6",
-            header: "header_eda564",
-            root: "root__6943c"
         }
     },
     469744: function(e, t, o) {
@@ -15546,7 +15569,6 @@
             container: "container__8877d",
             gap: "gap__148f2",
             header: "header_ffc801",
-            icon: "icon__388ab",
             iconContainer: "iconContainer__004ce"
         }
     },
@@ -18770,6 +18792,7 @@
         e.exports = {
             bodyColumnMiddle: "bodyColumnMiddle_f4bcdf",
             bodyColumnRight: "bodyColumnRight__94a69",
+            customGiftMessage: "customGiftMessage_de4b5e",
             stepBody: "stepBody__0162f"
         }
     },
