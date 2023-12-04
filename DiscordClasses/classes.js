@@ -5987,18 +5987,22 @@
         "use strict";
         e.exports = {
             avatar: "avatar_f6650d",
+            avatarContainer: "avatarContainer_f8f7ab",
             avatarPurchased: "avatarPurchased_eeb4c2",
             buttonsContainer: "buttonsContainer_d7f186",
+            cardBackground: "cardBackground_af6852",
+            cardLowOpacity: "cardLowOpacity_f1be3f",
             cardText: "cardText_e9b824",
-            cardTextProfileEffect: "cardTextProfileEffect_dab239",
             checkmark: "checkmark__2ccd6",
             checkmarkWrapper: "checkmarkWrapper_f2dab8",
+            darkCardBackground: "darkCardBackground__82a32",
             defaultPreviewButtonColor: "defaultPreviewButtonColor__6cdf9",
             description: "description__92b55",
             detailsWrapper: "detailsWrapper_b31a7f",
             hoverUpsellContainer: "hoverUpsellContainer__425f0",
             innerBlur: "innerBlur_ed9e8f",
             innerHover: "innerHover__54e25",
+            lightCardBackground: "lightCardBackground_da94ab",
             limitedTimeBadge: "limitedTimeBadge__19a7e",
             premiumWheel: "premiumWheel__02495",
             premiumWheelBadge: "premiumWheelBadge__2c9f2",
@@ -7082,21 +7086,6 @@
         "use strict";
         e.exports = {
             buttonsContainer: "buttonsContainer_ab237e"
-        }
-    },
-    926477: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            redactedMessageIcon: "redactedMessageIcon__9658c",
-            redactedMessageText: "redactedMessageText__5c991",
-            redactedMessages: "redactedMessages__70e27",
-            showRedactedMessagesButton: "showRedactedMessagesButton_b1d6c4"
-        }
-    },
-    167296: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            notSpamTooltip: "notSpamTooltip__71655"
         }
     },
     777016: function(e, t, o) {
