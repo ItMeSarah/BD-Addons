@@ -5635,6 +5635,7 @@
             avatarDecoration: "avatarDecoration__9affd",
             previewContainer: "previewContainer_d611ef",
             previewContainerError: "previewContainerError_ad9d71",
+            previewLink: "previewLink__6279a",
             previewTextContainer: "previewTextContainer__2fa3a",
             previewTitle: "previewTitle_bb7c50",
             previewTitleContainer: "previewTitleContainer__89aa4",
@@ -5883,7 +5884,8 @@
             titleContainer: "titleContainer_faa17e",
             titleImage: "titleImage__09f75",
             tooltip: "tooltip__1a014",
-            unlockDiscountButton: "unlockDiscountButton__10cd2"
+            unlockDiscountButton: "unlockDiscountButton__10cd2",
+            winterTitleImage: "winterTitleImage__1732f titleImage__09f75"
         }
     },
     492666: function(e, t, o) {
@@ -7402,7 +7404,7 @@
             singleUserName: "singleUserName_f7353f"
         }
     },
-    378451: function(e, t, o) {
+    393724: function(e, t, o) {
         "use strict";
         e.exports = {
             avatar: "avatar__611fe",
@@ -8541,7 +8543,7 @@
             warningIcon: "warningIcon_a7f209"
         }
     },
-    145912: function(e, t, o) {
+    8684: function(e, t, o) {
         "use strict";
         e.exports = {
             divider: "divider__1464c",
@@ -10774,6 +10776,7 @@
             memberAvatar: "memberAvatar__0cf3a",
             memberName: "memberName__747da",
             memberNameContainer: "memberNameContainer__43e33",
+            memberNameText: "memberNameText__731e2",
             memberRowContainer: "memberRowContainer_f0d0e5",
             otherRoles: "otherRoles_a19529",
             "redesign/channel-title/bold": "redesign-channel-title-bold_c9d07b",
@@ -11179,7 +11182,7 @@
             fileName: "fileName_cd5961"
         }
     },
-    616945: function(e, t, o) {
+    245793: function(e, t, o) {
         "use strict";
         e.exports = {
             addFileButton: "addFileButton_c1f2e9",
@@ -15787,7 +15790,7 @@
             hideDefaultIcon: "hideDefaultIcon__9f3a5"
         }
     },
-    535978: function(e, t, o) {
+    114141: function(e, t, o) {
         "use strict";
         e.exports = {
             emojiErrorItem: "emojiErrorItem_b85c9e",
@@ -16087,7 +16090,7 @@
             title: "title__76b2b"
         }
     },
-    563541: function(e, t, o) {
+    692089: function(e, t, o) {
         "use strict";
         e.exports = {
             activityCount: "activityCount_fc6478",
@@ -16747,7 +16750,7 @@
             uploadThumbnailContainer: "uploadThumbnailContainer_f50cb0"
         }
     },
-    512311: function(e, t, o) {
+    818155: function(e, t, o) {
         "use strict";
         e.exports = {
             closeButton: "closeButton_e6ae8d",
@@ -16874,7 +16877,7 @@
             expanded: "expanded_be53d7"
         }
     },
-    355582: function(e, t, o) {
+    936102: function(e, t, o) {
         "use strict";
         e.exports = {
             art: "art_fa26ef",
@@ -20709,7 +20712,7 @@
             textContainer: "textContainer__1765b"
         }
     },
-    236998: function(e, t, o) {
+    727505: function(e, t, o) {
         "use strict";
         e.exports = {
             bodyText: "bodyText__883c7",
@@ -23882,7 +23885,7 @@
             userSettingsSecurityImage: "userSettingsSecurityImage_fd1abe"
         }
     },
-    795420: function(e, t, o) {
+    852003: function(e, t, o) {
         "use strict";
         e.exports = {
             betaTag: "betaTag__8af88"
@@ -28479,7 +28482,7 @@
             wrappedName: "wrappedName_cef51f"
         }
     },
-    32368: function(e, t, a) {
+    129141: function(e, t, a) {
         "use strict";
         e.exports = {
             container: "container__8759a"
@@ -28634,7 +28637,7 @@
             icon: "icon__5c1d3"
         }
     },
-    971430: function(e, t, a) {
+    219629: function(e, t, a) {
         "use strict";
         e.exports = {
             nowrap: "nowrap__8fddb"
@@ -29099,13 +29102,13 @@
             subtext: "subtext__8f869"
         }
     },
-    49229: function(e, t, a) {
+    904100: function(e, t, a) {
         "use strict";
         e.exports = {
             title: "title__10613"
         }
     },
-    215529: function(e, t, a) {
+    336637: function(e, t, a) {
         "use strict";
         e.exports = {
             item: "item_f9d377",
