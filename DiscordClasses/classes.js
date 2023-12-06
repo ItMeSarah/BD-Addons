@@ -5920,6 +5920,7 @@
             cardBackground: "cardBackground_af6852",
             cardLowOpacity: "cardLowOpacity_f1be3f",
             cardText: "cardText_e9b824",
+            cardTextBlur: "cardTextBlur_e2acf1",
             checkmark: "checkmark__2ccd6",
             checkmarkWrapper: "checkmarkWrapper_f2dab8",
             darkCardBackground: "darkCardBackground__82a32",
@@ -5938,7 +5939,6 @@
             previewButtonInner: "previewButtonInner_f775c4",
             priceTag: "priceTag__76b4b",
             productName: "productName_ece1e1",
-            profileEffectCheckmarkWrapper: "profileEffectCheckmarkWrapper_e65762 checkmarkWrapper_f2dab8",
             profileEffectShopPreview: "profileEffectShopPreview_b8d693",
             purchaseButton: "purchaseButton__63193",
             shopCard: "shopCard_f7822b"
@@ -14772,7 +14772,7 @@
             communityInfoVisible: "communityInfoVisible_b0482d",
             container: "container__7c79d",
             dropdown: "dropdown_cd99f3",
-            favoritesInfo: "favoritesInfo__34e00",
+            favoritesIcon: "favoritesIcon__95de7",
             hasBanner: "hasBanner_e78601",
             hasSubheader: "hasSubheader__2064b",
             header: "header__104ca",
@@ -20415,9 +20415,18 @@
     659972: function(e, t, o) {
         "use strict";
         e.exports = {
+            container: "container__79b26",
             icon: "icon__3a061",
             iconContainer: "iconContainer_e97d42",
-            text: "text_f933cd"
+            textContainer: "textContainer__02ecb"
+        }
+    },
+    760068: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container__99df7",
+            text: "text__9a30e",
+            textWithAD: "textWithAD__170eb"
         }
     },
     265921: function(e, t, o) {
@@ -21447,6 +21456,35 @@
             tutorial: "tutorial__7b875",
             tutorialButton: "tutorialButton__87bcd",
             tutorialIcon: "tutorialIcon__5c63f"
+        }
+    },
+    72317: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container__155f7",
+            divider: "divider__28cf5",
+            inviteImage: "inviteImage_dff78c",
+            primaryButton: "primaryButton__76629",
+            primaryRow: "primaryRow__69d8b",
+            secondaryButton: "secondaryButton__02639",
+            secondaryRow: "secondaryRow_f2616a",
+            title: "title__4f6bc"
+        }
+    },
+    643e3: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container__64705 " + o("228146").recentMentionsPopout,
+            invitesContainer: "invitesContainer_b72c78"
+        }
+    },
+    731616: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container_a37c65",
+            deleteButton: "deleteButton__23cd2",
+            divider: "divider__7281f",
+            title: "title_d3b4f3"
         }
     },
     166570: function(e, t, o) {
@@ -28013,16 +28051,6 @@
             listItems: "listItems__699d1",
             listWrapper: "listWrapper__64154",
             scroller: "scroller_e89578"
-        }
-    },
-    682165: function(e, t, a) {
-        "use strict";
-        e.exports = {
-            paused: "paused__0a1f1",
-            sparkle: "sparkle__48f5f",
-            sparkleContainer: "sparkleContainer__1ac4a",
-            sparklePlus: "sparklePlus__4ac14",
-            sparkleStar: "sparkleStar__4b23f"
         }
     },
     747287: function(e, t, a) {
