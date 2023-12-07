@@ -2881,6 +2881,7 @@
             clickShield: "clickShield_ef8ee6",
             hidden: "hidden_bbd1c9",
             iframe: "iframe__214b3",
+            multiPIPMode: "multiPIPMode__0d121",
             pipMode: "pipMode_f1c701",
             pipModeShort: "pipModeShort__2888b",
             pipModeTall: "pipModeTall_bc08d1",
@@ -5978,6 +5979,14 @@
             shopForAllWinterBackground: "shopForAllWinterBackground__34a14",
             textBody: "textBody__282cf",
             title: "title__5fd27"
+        }
+    },
+    4881: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            snowflake: "snowflake__3643b",
+            "snowflakes-fall": "snowflakes-fall__21238",
+            "snowflakes-shake": "snowflakes-shake_ab86ff"
         }
     },
     807181: function(e, t, o) {
@@ -14872,10 +14881,11 @@
             container: "container__30406"
         }
     },
-    147070: function(e, t, o) {
+    502081: function(e, t, o) {
         "use strict";
         e.exports = {
-            tooltipImage: "tooltipImage__2062b"
+            description: "description_c25756",
+            tooltipImage: "tooltipImage__2e87b"
         }
     },
     168986: function(e, t, o) {
@@ -19458,6 +19468,16 @@
             video: "video__47ab5"
         }
     },
+    334873: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            buttonWide: "buttonWide_bc8401",
+            innerButton: "innerButton_bce5f8",
+            nitroIconSubHeader: "nitroIconSubHeader_d58016",
+            termsApplyAnchor: "termsApplyAnchor__07721",
+            termsApplyBodyText: "termsApplyBodyText__64e4c"
+        }
+    },
     212942: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -24026,8 +24046,10 @@
             guildIcon: "guildIcon__87f0f",
             infoBox: "infoBox_f47bb6",
             integration: "integration_d2f026",
+            integrationError: "integrationError_f2285e",
             integrationInner: "integrationInner__97d80",
             integrationRevoked: "integrationRevoked_c56f1d",
+            integrationWrapper: "integrationWrapper__04dd5",
             integrationsWrapper: "integrationsWrapper_c767a9",
             metadataContainer: "metadataContainer__7b316",
             metadataItem: "metadataItem_cd687b",
@@ -27796,6 +27818,7 @@
         e.exports = {
             borderRadius: "borderRadius__3965c",
             hidden: "hidden__576d2",
+            noBoxShadow: "noBoxShadow_d45938",
             pictureInPicture: "pictureInPicture__48d51",
             pictureInPictureWindow: "pictureInPictureWindow_dc49a8",
             pictureInPictureWindowOverflow: "pictureInPictureWindowOverflow__3abe4"
