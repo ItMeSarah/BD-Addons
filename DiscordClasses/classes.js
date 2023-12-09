@@ -4810,7 +4810,8 @@
     426068: function(e, t, o) {
         "use strict";
         e.exports = {
-            container: "container__5eb17"
+            container: "container__5eb17",
+            noPointerEvents: "noPointerEvents__16aad"
         }
     },
     67046: function(e, t, o) {
@@ -5622,6 +5623,7 @@
             collectedTextContainer: "collectedTextContainer__3e39d",
             confettiCanvas: "confettiCanvas__125ed",
             decorationBanner: "decorationBanner_d5fe2e",
+            default: "default__48f1b",
             modalCloseButton: "modalCloseButton_a426a9",
             modalContent: "modalContent__613a4",
             modalInner: "modalInner__0113c",
@@ -19185,10 +19187,13 @@
     177037: function(e, t, o) {
         "use strict";
         e.exports = {
+            altBadge: "altBadge_df7f31",
+            altTextPreview: "altTextPreview__61f2c",
             answerRow: "answerRow__9fc86",
             defaultContainer: "defaultContainer__91554",
             defaultTextInput: "defaultTextInput__91909",
             emojiDefault: "emojiDefault_a6c36f",
+            emojiJumbo: "emojiJumbo__389fd",
             expressionPickerButtonDefault: "expressionPickerButtonDefault_eda6e6",
             expressionPickerButtonImageOnly: "expressionPickerButtonImageOnly__42a53",
             expressionPickerIconDefault: "expressionPickerIconDefault__286f7",
@@ -19210,6 +19215,19 @@
             badgeReplied: "badgeReplied_bb040a",
             icon: "icon_a9525f",
             innerBadge: "innerBadge__2f562"
+        }
+    },
+    353096: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            content: "content_c794a7",
+            emojiPreview: "emojiPreview_e8be21",
+            footer: "footer__73f70",
+            hasEmoji: "hasEmoji__38bdd",
+            hasImage: "hasImage_f650a8",
+            imagePreview: "imagePreview__05042",
+            input: "input_e57649",
+            modal: "modal_a71ed1"
         }
     },
     877055: function(e, t, o) {
