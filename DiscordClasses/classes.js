@@ -5720,6 +5720,7 @@
             regularShopCard: "regularShopCard__06c2e",
             shop: "shop_b31ed2",
             shopScroll: "shopScroll__2feb5",
+            shopScrollBackgroundPrimary: "shopScrollBackgroundPrimary_bb1f42",
             tallerShopCard: "tallerShopCard__60f20",
             title: "title_f46d09"
         }
@@ -16085,25 +16086,6 @@
             userContainer: "userContainer__3a358",
             userIcon: "userIcon_a138cb",
             userInfo: "userInfo_a15cfe"
-        }
-    },
-    468565: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            footer: "footer__17495",
-            modal: "modal_bff660",
-            otherField: "otherField__38d6b",
-            question: "question__39a6b",
-            subtitle: "subtitle__8d09e",
-            title: "title__6536e"
-        }
-    },
-    306611: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            footer: "footer__835f2",
-            subtitle: "subtitle__28a2f",
-            title: "title__76b2b"
         }
     },
     692089: function(e, t, o) {
