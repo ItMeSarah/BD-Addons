@@ -19261,11 +19261,8 @@
     944313: function(e, t, o) {
         "use strict";
         e.exports = {
-            imageVotedAndVictorMixinStyles: "imageVotedAndVictorMixinStyles_ae3068",
-            mutedMixinStyles: "mutedMixinStyles__4d4fa",
             normalStylesDefault: "normalStylesDefault_b8063d",
             normalStylesImageOnlyAnswers: "normalStylesImageOnlyAnswers__10b2a",
-            selectedMixinStyles: "selectedMixinStyles__6dfd9",
             victorStyles: "victorStyles_d67b5e",
             votedStyles: "votedStyles__92837"
         }
@@ -19374,8 +19371,10 @@
             answer: "answer_be6c2e",
             answersContainer: "answersContainer_fd091b",
             attachment: "attachment__02b3f",
+            attachmentWithResults: "attachmentWithResults__2468b",
             emoji: "emoji__27dab",
             mediaMissing: "mediaMissing__2a6d1",
+            pollAnswerIcon: "pollAnswerIcon__5fba2",
             selectedIcon: "selectedIcon__1a872",
             votesData: "votesData_e545ce"
         }
@@ -19393,12 +19392,13 @@
         e.exports = {
             answer: "answer__07489",
             answerContent: "answerContent_f678a4",
+            answerInner: "answerInner_a3bc8e",
             answersContainer: "answersContainer__97393",
             attachment: "attachment_b6d123",
             avatarForSelected: "avatarForSelected_db7f86",
-            emoji: "emoji__320b7",
             label: "label_f6dfd2",
             mediaContainer: "mediaContainer__32ff8",
+            pollAnswerIcon: "pollAnswerIcon_eeac4f",
             voteDataLine: "voteDataLine_efaced",
             votePercentageBar: "votePercentageBar__4c440",
             votesData: "votesData__4d275"
