@@ -1,7 +1,7 @@
 /**
  * @name UserAffinities
  * @description Shows user affinity scores in user popouts and user profile.
- * @version 1.0.1
+ * @version 1.0.2
  * @author ItMeSarah
  * @authorLink https://github.com/ItMeSarah/ItMeSarah.github.io
  * @invite 7kzb9h27nR
