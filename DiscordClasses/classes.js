@@ -5372,6 +5372,8 @@
             clipThumb: "clipThumb__90837",
             clipThumbContainer: "clipThumbContainer_f469a2",
             clipTitle: "clipTitle__779d0",
+            clipTitleInput: "clipTitleInput_f80ecf",
+            clipTitleInputPlaceholder: "clipTitleInputPlaceholder__5c743",
             disabled: "disabled__29897",
             miniIcon: "miniIcon_d6c101",
             newIcon: "newIcon__98982",
@@ -14643,6 +14645,15 @@
             wrapperStatic: "wrapperStatic__026af wrapperCommon_d71dee"
         }
     },
+    387646: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            container: "container__03857",
+            headerDivider: "headerDivider__29fc4",
+            popoutHeaderContainer: "popoutHeaderContainer__42b1e",
+            settingNudgeText: "settingNudgeText_b646a3"
+        }
+    },
     809403: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -14666,6 +14677,18 @@
             textRow: "textRow_ead7a8",
             timeBar: "timeBar__1367a",
             usersSummary: "usersSummary__89d90"
+        }
+    },
+    84059: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            activity: "activity_b9af91",
+            activityActionsContainer: "activityActionsContainer__62c13",
+            button: "button_b406e5",
+            channelActivityContainer: "channelActivityContainer__8df45",
+            morePartyMembers: "morePartyMembers_db81e9",
+            partyAvatar: "partyAvatar__1b9a0",
+            partyMembers: "partyMembers__47fad"
         }
     },
     708995: function(e, t, o) {
@@ -14760,6 +14783,14 @@
             unreadBottom: "unreadBottom__6be9f unread__11823 " + o("100252").container,
             unreadTop: "unreadTop__6e8c4 unread__11823 " + o("100252").container,
             voiceUserSummary: "voiceUserSummary_cc4382"
+        }
+    },
+    861654: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            channelIcon: "channelIcon_bf17cb",
+            channelName: "channelName__9884c",
+            popoutHeader: "popoutHeader__04bc7"
         }
     },
     314796: function(e, t, o) {
@@ -14941,25 +14972,6 @@
             unreadIcon: "unreadIcon_efbd40",
             voiceChannelsIcon: "voiceChannelsIcon__98792",
             voiceChannelsUsers: "voiceChannelsUsers_ff5a08"
-        }
-    },
-    702816: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            activity: "activity_b1eb7a",
-            activityActionsContainer: "activityActionsContainer__40e7d",
-            button: "button__6ac9e",
-            channelActivityContainer: "channelActivityContainer__11b6e",
-            channelIcon: "channelIcon__45e38",
-            channelName: "channelName__41380",
-            channelNameContainer: "channelNameContainer_c20253",
-            container: "container__56cd1",
-            headerDivider: "headerDivider_ec8d1f",
-            morePartyMembers: "morePartyMembers_ae5f2a",
-            partyAvatar: "partyAvatar_ac0e41",
-            partyMembers: "partyMembers_ef07de",
-            popoutHeaderContainer: "popoutHeaderContainer_b9047b",
-            settingNudgeText: "settingNudgeText__8f895"
         }
     },
     781691: function(e, t, o) {
@@ -15293,9 +15305,10 @@
             cta: "cta__86081",
             iconGroup: "iconGroup__93485",
             outline: "outline__8f17a statusIcon__3e5cd",
+            popout: "popout__7a706",
+            popoutWrapper: "popoutWrapper_b99dc6",
             statusGroup: "statusGroup_ebfa6c",
-            statusIcon: "statusIcon__3e5cd",
-            wrapper: "wrapper__139c2"
+            statusIcon: "statusIcon__3e5cd"
         }
     },
     492013: function(e, t, o) {
@@ -15304,31 +15317,20 @@
             comingSoonIcon: "comingSoonIcon_d5180a",
             customIcon: "customIcon_a37db4",
             defaultIcon: "defaultIcon__8ffba",
-            deleteOption: "deleteOption_c9549f",
             disabledWidget: "disabledWidget_a64d38",
             divider: "divider__26943",
             editIcon: "editIcon__562b8",
-            editOption: "editOption_fbe509",
+            editIconColor: "editIconColor_e9a173",
             icon: "icon__7eecf",
             iconWidget: "iconWidget_db0821",
             iconsContainer: "iconsContainer__44b35",
-            optionIcon: "optionIcon__4e55f",
-            popoutOption: "popoutOption__8c8cf",
-            popoutTitle: "popoutTitle__00ba8",
+            optionButton: "optionButton_e99332",
+            popout: "popout__4c91f",
             popoutWrapper: "popoutWrapper__16db8",
-            recentIcon: "recentIcon__43beb",
             selectedWidget: "selectedWidget__1e288",
+            setCustomButton: "setCustomButton__99e98",
             statusButtonRegion: "statusButtonRegion__47ea7",
             statusWidget: "statusWidget__878ca"
-        }
-    },
-    207509: function(e, t, o) {
-        "use strict";
-        e.exports = {
-            iconWidget: "iconWidget_b2ac71",
-            statusGroup: "statusGroup__7809a",
-            statusIcon: "statusIcon__87cd6",
-            statusText: "statusText__40040"
         }
     },
     961282: function(e, t, o) {
@@ -20232,6 +20234,8 @@
             cardText: "cardText__2fe30",
             container: "container_aafa76",
             content: "content__666df",
+            duplicateSubscriptionsBanner: "duplicateSubscriptionsBanner_e2aeea",
+            duplicateSubscriptionsBannerText: "duplicateSubscriptionsBannerText_ae1ef0",
             loading: "loading__007c1",
             noItemsCard: "noItemsCard_f473e7",
             noItemsIcon: "noItemsIcon__38ca2",
@@ -27142,6 +27146,7 @@
         e.exports = {
             centerContent: "centerContent__4a3dd",
             embed: "embed_d3cbe3",
+            embedAmazonMusic: "embedAmazonMusic__747d9",
             embedAuthor: "embedAuthor_cb4bfc",
             embedAuthorIcon: "embedAuthorIcon__6b055",
             embedAuthorName: "embedAuthorName_a1274b",
@@ -29419,6 +29424,7 @@
             liveIconSpacing: "liveIconSpacing__7111d",
             overlap: "overlap_c76e16",
             selected: "selected__471ca",
+            selfHangStatus: "selfHangStatus__30cc4",
             strikethrough: "strikethrough_be7c82",
             userLarge: "userLarge__6c69c",
             userSmall: "userSmall_e40291",
