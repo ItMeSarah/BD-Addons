@@ -15315,9 +15315,7 @@
     492013: function(e, t, o) {
         "use strict";
         e.exports = {
-            comingSoonIcon: "comingSoonIcon_d5180a",
             customIcon: "customIcon_a37db4",
-            disabledWidget: "disabledWidget_a64d38",
             divider: "divider__26943",
             editIcon: "editIcon__562b8",
             editIconColor: "editIconColor_e9a173",
@@ -29406,6 +29404,7 @@
             disabled: "disabled__69f9b",
             flipped: "flipped__5d69b",
             guestSuffix: "guestSuffix__33fec",
+            hangStatusIcon: "hangStatusIcon__10ffc",
             icon: "icon__1d60c",
             iconPriortySpeaker: "iconPriortySpeaker_b1ed03",
             iconPriortySpeakerSpeaking: "iconPriortySpeakerSpeaking__3f2f3",
