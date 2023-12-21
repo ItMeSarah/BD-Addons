@@ -14650,7 +14650,9 @@
             iconBase: "iconBase_bf11e7",
             iconItem: "iconItem__56989 iconBase_bf11e7",
             iconLive: "iconLive__5be96",
+            iconNoChannelInfo: "iconNoChannelInfo__2e82b",
             iconVisibility: "iconVisibility__2ecfa",
+            iconWithChannelInfo: "iconWithChannelInfo_a2e336",
             selected: "selected__11b62",
             subtitleHasThreads: "subtitleHasThreads_f6a9a2",
             summary: "summary_c19b3e"
