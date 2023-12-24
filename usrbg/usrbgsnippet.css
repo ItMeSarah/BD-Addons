@@ -1,6 +1,6 @@
 /* This snippet relies on the DataAtributes plugin (DataAttributes.plugin.js) that can be found in this same folder. */
 
-.profileColors-3Y0XaR {
+.profileColors__2e2f0{
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent !important;
@@ -14,29 +14,23 @@
     --profile-role-pill-border-color: var(--interactive-normal) !important;
 }
 /*Usrbg*/
-.id-495862154323558401:not(#messages, #username){--u:url(https://ik.imagekit.io/vcbg/kafka.avif);width: auto; height: auto;}
-.overlayBackground-1KgwVi, .userProfileOuterUnthemed-2b2rsv, .userProfileInner-3F03PX::before, .userProfileInnerThemedNonPremium-1gT-zY, .userProfileInnerThemedWithBanner-2624Yx, .userProfileInnerThemedPremiumWithoutBanner-1yMS1H{background: none} /*Upcoming changes for Profile Skins*/
-#userpopout{transform:translateZ(0);}
-#usermodal{transform:translateZ(0);}
-.accountProfilePopoutWrapper-3GskID #userpopout {transform: unset;}
-#userpopout{
+/*.id-495862154323558401:not(#messages, #username), .theme-dark .accountProfileCard__22589::before{--u:url(https://cdn.discordapp.com/attachments/1148696587263033458/1187059669563359362/anime-png-13.png?ex=65958277&is=65830d77&hm=8d38350e6426a9124d59e30ef6fc1891e90d5797e19174cf1b7cbc2bbdeb60bd&);width: auto; height: auto;}*/
+.theme-dark .userProfileInnerThemedWithBanner_d5f991,.theme-dark .overlayBackground__86b78, .theme-dark .userProfileOuter__46bb7, .theme-dark .userProfileOuterUnthemed__48723, .userProfileInner-3F03PX::before, .theme-dark .userProfileInnerThemedNonPremium__3d0a6, .theme-dark .userProfileInnerThemedPremiumWithoutBanner__703b1, .theme-dark .banner__6d414, .theme-dark .profileBanner__8414b, .theme-dark .accountProfileCard__22589, .userPanelInnerThemed__1804b{background: none} /*Upcoming changes for Profile Skins*/
+#userpopout, #usermodal, .theme-dark .accountProfileCard__22589{transform:translateZ(0);}
+.theme-dark .accountProfilePopoutWrapper_af829a #userpopout {transform: unset;}
+#userpopout, #usermodal{
 background: var(--background-floating) !important;
 }
-.accountProfilePopoutWrapper-3GskID #userpopout::before{content:unset;}
-.accountProfilePopoutWrapper-3GskID #userpopout {transform: unset;}
+.theme-dark .accountProfilePopoutWrapper_af829a #userpopout::before{content:unset;}
+.theme-dark .accountProfilePopoutWrapper_af829a #userpopout {transform: unset;}
 /*User Popout (Full Popout and not just the banner.*/
-#userpopout::before, #usermodal::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.5;background:var(--u) center/100% 100% no-repeat !important}
-
-
+#userpopout::before, #usermodal::before, .theme-dark .accountProfileCard__22589::before{content:'';position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.5;background:var(--u) center/100% 100% no-repeat !important}
 /*Lets the user BG Show on user popout and profile. */
-#app-mount .body-2wLx-E, 
-#app-mount .footer-3naVBw, 
 .headerNormal-3Zn_yu{
 background-color: transparent !important;
 }
-.avatar-3QF_VA, .avatar-2Vndt_ {
+.avatar-3QF_VA{
 background: transparent;
 border-color: transparent;
 }
-
 /*end usrbg*/
