@@ -2667,6 +2667,8 @@
             avatars: "avatars__11149",
             badgeContainer: "badgeContainer__8bb31",
             brokenImageIconWrapper: "brokenImageIconWrapper__461ed activityImage_a2de33",
+            devShelfBadge: "devShelfBadge_a7da3f",
+            devShelfIcon: "devShelfIcon__39539",
             disabled: "disabled_b6f87e",
             fadeIn: "fadeIn__18cab",
             fadeOut: "fadeOut__1434a",
@@ -4859,6 +4861,7 @@
             channelTextAreaDisabled: "channelTextAreaDisabled_c43b1c",
             disabledButtonWrapper: "disabledButtonWrapper__02c7a",
             emojiButton: "emojiButton__30ec7 button__55e53",
+            expressionPickerPositionLayer: "expressionPickerPositionLayer__2061e",
             focusRing: "focusRing_e5d39f",
             fontSize12Padding: "fontSize12Padding__8bf16",
             fontSize14Padding: "fontSize14Padding__152fa",
@@ -7446,6 +7449,8 @@
             positionContainer: "positionContainer__0c914",
             positionContainerOnlyEmoji: "positionContainerOnlyEmoji_be9d5f",
             positionLayer: "positionLayer__50609",
+            positionLayerDefaultAlignLeft: "positionLayerDefaultAlignLeft_b90a2b",
+            positionLayerDefaultAlignRight: "positionLayerDefaultAlignRight__0e6fa",
             resizeHandle: "resizeHandle__86d9c",
             soundboardContainer: "soundboardContainer__81b8e",
             stickersNavItem: "stickersNavItem__017c9",
@@ -10075,13 +10080,18 @@
     623529: function(e, t, o) {
         "use strict";
         e.exports = {
+            innerContainer: "innerContainer__0d2b8",
+            loadingContainer: "loadingContainer_bcf1e4",
+            profileThemedContainer: "profileThemedContainer__649f1",
             sidebarContianer: "sidebarContianer_e155a0"
         }
     },
     558595: function(e, t, o) {
         "use strict";
         e.exports = {
+            modInfoAction: "modInfoAction__40259",
             modInfoItem: "modInfoItem__05dd7",
+            modInfoItemActionIcon: "modInfoItemActionIcon__50180",
             modInfoItemContainer: "modInfoItemContainer__3a0b0",
             modInfoItemDescription: "modInfoItemDescription_eab42f",
             modInfoItemIcon: "modInfoItemIcon__5a831",
@@ -10095,14 +10105,33 @@
             addRoleIcon: "addRoleIcon__8020e",
             container: "container_c18052",
             guildIcon: "guildIcon__137b3",
+            header: "header__01d62",
+            headerTitle: "headerTitle__5360f",
             highestRole: "highestRole__587f2",
             infoTitle: "infoTitle_cb538d",
+            innerContainer: "innerContainer_fe088f",
+            keyComboContainer: "keyComboContainer__7564c",
+            keyComboInner: "keyComboInner__272a8",
             loadingSpinner: "loadingSpinner_fff75b",
             otherRoles: "otherRoles__479b5",
             roleContainer: "roleContainer_a1406d",
             roleTooltip: "roleTooltip__841f1",
             roleTooltipItem: "roleTooltipItem_d76bcc",
-            roleTooltipItemContainer: "roleTooltipItemContainer_e938b9"
+            roleTooltipItemContainer: "roleTooltipItemContainer_e938b9",
+            unverifiedIcon: "unverifiedIcon__06545",
+            verifiedIcon: "verifiedIcon__29369"
+        }
+    },
+    953035: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            backButton: "backButton__2f3b7",
+            container: "container_b3957f",
+            header: "header_dfa38f",
+            headerTitle: "headerTitle__60ae2",
+            innerContainer: "innerContainer__68aae",
+            keyComboContainer: "keyComboContainer_c48c31",
+            keyComboInner: "keyComboInner_a00a38"
         }
     },
     298028: function(e, t, o) {
@@ -10113,7 +10142,6 @@
             bottomRowActionDisabled: "bottomRowActionDisabled__413d8",
             closeAction: "closeAction__06c6c",
             container: "container__8316e",
-            innerBoarderedContainer: "innerBoarderedContainer_e438e6",
             memberAvatar: "memberAvatar__5f01a",
             memberName: "memberName_be9f8d",
             memberNameContainer: "memberNameContainer__7f3f1",
@@ -15223,6 +15251,7 @@
             contentContainer: "contentContainer__4f798",
             cta: "cta__86081",
             iconGroup: "iconGroup__93485",
+            mounted: "mounted__2a080",
             outline: "outline__8f17a statusIcon__3e5cd",
             popout: "popout__7a706",
             popoutWrapper: "popoutWrapper_b99dc6",
@@ -19281,6 +19310,12 @@
             warningIcon: "warningIcon__17017"
         }
     },
+    929574: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            expressionPickerPositionLayer: "expressionPickerPositionLayer_f15e20"
+        }
+    },
     652886: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -21407,6 +21442,18 @@
             title: "title_d3b4f3"
         }
     },
+    400004: function(e, t, o) {
+        "use strict";
+        e.exports = {
+            iconContainer: "iconContainer__5eefd",
+            inviteImage: "inviteImage__4d65c",
+            inviterImage: "inviterImage_ab64aa",
+            offsetAvatarContainer: "offsetAvatarContainer_e93278",
+            titleContainer: "titleContainer_a9c874",
+            tooltip: "tooltip_e208e4",
+            tooltipContent: "tooltipContent_e5fd34"
+        }
+    },
     166570: function(e, t, o) {
         "use strict";
         e.exports = {
@@ -21913,7 +21960,8 @@
             secondaryIcon: "secondaryIcon_de5138",
             secondaryIconActive: "secondaryIconActive__586a8 secondaryIcon_de5138",
             secondaryIconDisabled: "secondaryIconDisabled__6bd93 secondaryIcon_de5138",
-            soundButtonSettingContainer: "soundButtonSettingContainer__548af"
+            soundButtonSettingContainer: "soundButtonSettingContainer__548af",
+            soundText: "soundText__51d36"
         }
     },
     304593: function(e, t, o) {
@@ -28923,7 +28971,10 @@
         "use strict";
         e.exports = {
             actionAnchor: "actionAnchor_d67b32",
+            alertsEnabledSubHeader: "alertsEnabledSubHeader_d89186",
+            alertsEnabledSubHeaderAvatarUsername: "alertsEnabledSubHeaderAvatarUsername_f5fe74",
             buttonStyle: "buttonStyle__1fafc",
+            cardContent: "cardContent_fc7261",
             cardFooter: "cardFooter_b3fc03",
             cardHeader: "cardHeader__60ecb",
             cardHeaderContianer: "cardHeaderContianer__7171f",
@@ -28933,6 +28984,7 @@
             cozy: "cozy_f8956f",
             dot: "dot__65d82",
             dotMargin: "dotMargin__5f8ce",
+            dotSeparatedRow: "dotSeparatedRow__2d230",
             embedCard: "embedCard__05d17",
             footerAction: "footerAction__4eea9",
             footerIcon: "footerIcon_df5c2b",
