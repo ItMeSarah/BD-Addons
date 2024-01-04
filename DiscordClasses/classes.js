@@ -6087,6 +6087,7 @@
     852243: function(e, t, o) {
         "use strict";
         e.exports = {
+            backButton: "backButton_c0ce06",
             closeButton: "closeButton__7bd3d",
             createGuild: "createGuild_eb084b",
             creationIntentCheckbox: "creationIntentCheckbox__24f3d",
